@@ -2,7 +2,15 @@
 
 > #### *¿Qué encontrarás aqui?*
 >
-> - Un poco de nuestra historia
-> - Nuestros paquetes.
+> - Un poco de nuestra historia *¿Quiénes somos?*
+> - Nuestros bellos girasoles en distintas presentaciones
+> - *¿Listo para pedir?* ¡Cómo realizar tu pedido!
+> - Contáctanos en nuestras redes sociales: **@FlorDorada.gacd**
 >
->  *Everything* is going according to **plan**.
+
+>  "Haz de cada momento un día soleado con nuestros girasoles." 
+*Flor Dorada*
+
+### Emprendedora
+- Diana Garcia Capetillo
+- Licencia MIT
