@@ -11,6 +11,6 @@
 >  "Haz de cada momento un día soleado con nuestros girasoles." 
 *Flor Dorada*
 
-### Emprendedora
+### Emprendedora y Autora
 - Diana Garcia Capetillo
 - Licencia MIT
