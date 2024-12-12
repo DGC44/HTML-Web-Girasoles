@@ -6,12 +6,12 @@
 }
 
 .title {
-    color: goldenrod;
+    color: white;
 }
 
 /* Estilos para el contenedor "header" */
 header {
-    background-color: #f0f0f0;
+    background-color:#b55b05;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,6 +80,22 @@ nav ul li a:hover {
     padding: 0;
 }
 
+/* Diseño pestaña de Nosotros */
+.historia {
+    font-size: 1.2em; 
+    color: #2a0e00; 
+    line-height: 1.6;
+    text-align: center;
+    padding: 20px;
+    max-width: 800px; 
+    margin: auto;
+}
+
+.hisotria h1 {
+    padding: 2em; 
+    color: rgba(94, 44, 8, 0.938);
+}
+
 /* Muestra */
 .cuadro {
     border: 5px solid #333;
@@ -100,4 +116,18 @@ nav ul li a:hover {
     text-align: center;
     border-radius: 25px;
     align-items: flex-end; 
+}
+
+
+
+/* Estilos del Footer */
+footer {
+    color: white;
+    background-color: #b55b05;
+    padding: 1rem;
+    text-align: center;
+    height: 60px;
+    bottom: 0;
+    width: 100%;
+    align-items: flex-end;
 }
