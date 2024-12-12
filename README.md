@@ -5,11 +5,11 @@
 > - Un poco de nuestra historia *¿Quiénes somos?*
 > - Nuestros bellos girasoles en distintas presentaciones
 > - *¿Listo para pedir?* ¡Cómo realizar tu pedido!
-> - Contáctanos en nuestras redes sociales: **@FlorDorada.gacd**
+> - Contáctanos en nuestras redes sociales: **@SolyVida.gacd**
 >
 
 >  "Haz de cada momento un día soleado con nuestros girasoles." 
-*Flor Dorada*
+*Sol y Vida*
 
 ### Emprendedora y Autora
 - Diana Garcia Capetillo
