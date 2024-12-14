@@ -77,7 +77,6 @@ nav ul li a:hover {
 }
   
 .slider-container img {
-    flex: 0 0 100%;
     width: 100%;
     object-fit: cover;
 }
@@ -317,12 +316,17 @@ form {
 
 /* Estilos del Footer */
 footer {
-    color: white;
-    background-color: #b55b05;
-    padding: 1rem;
+    padding: 10px;
     text-align: center;
     height: 60px;
     bottom: 0;
     width: 100%;
-    align-items: flex-end;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    font-size: 2rem;
 }
