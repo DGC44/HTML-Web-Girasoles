@@ -183,24 +183,33 @@ nav ul li a:hover {
 }
 
 
-
-
-
 /* Diseño pestaña de Nosotros */
 .historia {
     font-size: 1.2em; 
     color: #2a0e00; 
     line-height: 1.6;
     text-align: center;
-    padding: 20px;
-    max-width: 800px; 
+    padding: 20px; 
     margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
-.hisotria h1 {
-    padding: 2em; 
-    color: rgba(94, 44, 8, 0.938);
+.historia img {
+    width: 500px;
+    height: 500px;
+    margin-left: 30px;
+    align-self: center;
+    box-shadow: #743419
 }
+
+.tithistoria {
+    padding: 0; 
+    color: rgba(94, 44, 8, 0.938);
+    font-size: 2rem;
+    text-align: center;
+}
+
 
 .media {
     margin-top: 1.5em;
