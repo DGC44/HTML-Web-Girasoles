@@ -182,6 +182,55 @@ nav ul li a:hover {
     opacity: 1;
 }
 
+/* Testimonios */
+.card-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+  
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efecto de crecimiento al pasar el mouse */
+    background-color: #fff0ca;
+}
+  
+.card img {
+    width: 100%;
+    height: auto;
+}
+  
+.card-content {
+    padding: 15px;
+}
+  
+.stars {
+    color: #ffcc00;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+  
+.stars p {
+    font-size: 14px;
+    margin: 10px 0;
+    color: #666;
+}
+  
+.stars h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
 
 /* Pestaña de Nosotros */
 .historia {
