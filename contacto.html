@@ -36,14 +36,25 @@
         </p>
     </div>
 
-    <div class="media">
-        <p style="font-size: 1em; font-weight: bold;">Contacto:</p>
-        <p style="margin: 0.5em 0;">Teléfono: +52 2285 433722</p>
-        <p style="margin: 0.5em 0;">Correo electrónico: solYvida@gmail.com</p>
-        <p style="margin: 0.5em 0;">Facebook: Sol y Vida</p>
-        <p style="margin: 0.5em 0;">Instagram: @SolyVida.gacd</p>
-        <p style="margin: 0.5em 0;">Dirección: Calle de los Girasoles #123, Veracruz, México</p>
-    </div>
+    <form action="https://formspree.io/f/tu-email-aqui" method="POST" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
+        <div class="form">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre" required>
+        </div>
+        <div class="form">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="_replyto" placeholder="Introduce tu email" required>
+        </div>
+        <div class="form">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+        </div>
+        <div class="form">
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+
+    
 
     <!-- Pie de Página -->
     <footer>

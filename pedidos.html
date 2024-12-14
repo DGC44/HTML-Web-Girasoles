@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pedidos</title>
     <link rel="icon" href="./images/icon.png">
     <link rel="stylesheet" href="./CSS/diseño.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,33 +26,37 @@
         </ul>
     </nav>
    
-
-    <!--Cómo ordenar-->
-    <section id="Como ordenar" style="padding: 2em; background-color: #f9f9f9;">
-        <div style="max-width: 800px; margin: auto; text-align: center;">
-    <img src="./images/letrero.png" alt="" width="200">
-    <h2 style="font-size: 2em; color: #FFBF00;">¿Cómo realizar tu pedido?</h2>
-    <ol>
-        <li>Selecciona el modelo que desees de "Nuestros girasoles"</li>
-        <li>Manda inbox a nuestro número de contacto que aparece en la sección "Contacto"</li>
-        <li>Si alguno de nuestros diseños no te convence, mándanos tu idea ¡Seguro que podemos hacerla realidad!</li>
-        <li>En el inbox incluye: <br> <ul>
-            <li>Nombre a quien quedará el pedido</li>
-            <li>Fecha y hora de entrega</li>
-            <li>Domicilio de entrega (costo extra)</li>
-            <li>Menciona si le quieres agregar alguna carta y qué es lo que dirá</li>
-            <li>Forma de pago (efectivo o transferencia electrónica)</li>
-          
-        </ul>
-        <li>Confirma tu pedido una vez que nuestros servidores te atiendan</li>
-        </ol> 
+    <div class="pedido">
+        <img src="./images/letrero.png">
+        <h2 style="font-size: 2em; color: #FFBF00;">¿Cómo realizar tu pedido?</h2>
+        <section class="ejemplo">
+            <p>Un grid simple de 3 columnas usando <strong>grid-template-columns</strong></p>
+        
+            <div class="pedido1">
+                <div>1. Selecciona el modelo que desees de "Nuestros girasoles"</div>
+                <div>2. Manda inbox a nuestro número de contacto que aparece en la sección "Contacto"</div>
+                <div>3. Si alguno de nuestros diseños no te convence, mándanos tu idea ¡Seguro que podemos hacerla realidad!</div>
+                <div>4. En el inbox incluye:
+                    <p>
+                        <ul>
+                            <br>Nombre a quien quedará el pedido
+                            <br>Fecha y hora de entrega
+                            <br>Domicilio de entrega (costo extra)
+                            <br>Menciona si le quieres agregar alguna carta y qué es lo que dirá
+                            <br>Forma de pago (efectivo o transferencia electrónica)
+                        </ul>
+                        
+                    </p>
+                </div>
+                <div>Confirma tu pedido una vez que nuestros servidores te atiendan</div>
+            </div>
+        </section>
         <h3 style="color:rgb(15, 1, 1);">¡LISTO! Tu pedido se habrá realizado correctamente</h3>
         <img src="./images/orden.png" alt="" width="400"> 
-    </ol>
-        </div>
-    </section>
 
+    </div>
     
+        
     <!-- Pie de Página -->
     <footer>
         <p>&copy; 2024 Tienda de Girasoles. Todos los derechos reservados.</p>

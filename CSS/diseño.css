@@ -1,5 +1,4 @@
 * {
-    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: playfair display, system-ui;
@@ -67,6 +66,20 @@ nav ul li a:hover {
 
 .inicio img {
     width: 800px;
+}
+
+/* Carrusel */
+.slider-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow-x: scroll;
+}
+  
+.slider-container img {
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .contenedor {
@@ -214,6 +227,93 @@ nav ul li a:hover {
     color: white;
 }
 
+/* Seccion Pedidos */
+.pedido {
+    padding: 2em;
+    max-width: 800px; 
+    margin: auto; 
+    text-align: center;
+}
+
+.pedido1 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+.pedido1 div {
+    background-color: #d3b792;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Pestaña Contacto */
+form {
+    width: 100%;
+    min-height: 50vh;
+    padding: 5vh 10vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    display: block;
+}
+
+
+.form label {
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.form label {
+    cursor: default;
+}
+
+.form input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #dfa60c;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+.form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #dfa60c;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+.form button {
+    color: #743419;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.2s linear;
+    cursor: pointer;
+    border: 2px solid #743419;
+    background-color: #dfa60c;
+}
+
+.form button:hover {
+    scale: 1.1;
+    border: 2px solid #d3b792;
+    background-color: transparent;
+    font-weight: 700;
+    box-shadow: 0 0 40px;
+}
 
 /* Estilos del Footer */
 footer {
