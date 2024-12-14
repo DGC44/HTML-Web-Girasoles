@@ -183,7 +183,7 @@ nav ul li a:hover {
 }
 
 
-/* Diseño pestaña de Nosotros */
+/* Pestaña de Nosotros */
 .historia {
     font-size: 1.2em; 
     color: #2a0e00; 
@@ -220,7 +220,7 @@ nav ul li a:hover {
     background-color: #ebac34;
 }
 
-/* Fichas */
+/* Pestaña Diseños */
 .fichas {
     padding: 20px;
     gap: 20px;
@@ -327,6 +327,75 @@ nav ul li a:hover {
     padding: 20px;
     text-align: center;
 }
+
+
+/* Pestaña Tips */
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0px;
+}
+  
+.container h1 {
+    text-align: center;
+    color: #743419;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+  
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+  
+.image-container {
+    flex: 1;
+    min-width: 500px;
+}
+  
+.image-container img {
+    border-radius: 5px;
+    max-width: 100%;
+}
+  
+.tips {
+    flex: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+  
+.tip {
+    display: flex;
+    align-items: center;
+    background-color: #fff0ca;
+    padding: 10px;
+    border-radius: 5px;
+}
+  
+.icon {
+    font-size: 60px;
+    color: #743419;
+    margin: 20px 20px;
+    font-weight: bold;
+}
+  
+.icon h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+  
+.icon p {
+    margin: 0 0 0;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+
 
 
 /* Pestaña Contacto */
