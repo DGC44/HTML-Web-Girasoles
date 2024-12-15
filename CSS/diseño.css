@@ -344,23 +344,52 @@ header {
 }
 
 /* Pestaña de Nosotros */
-.historia {
-    font-size: 1.2em; 
-    color: #2a0e00; 
-    line-height: 1.6;
-    text-align: center;
-    padding: 20px; 
-    margin: auto;
-    display: flex;
-    justify-content: center;
+.histo {
+    display: flex; /* Usa flexbox para dividir el contenido */
+    align-items: center; /* Centra verticalmente */
+    justify-content: space-between; /* Separa el texto y la imagen */
+    margin: 20px auto; /* Centra el contenido */
+    padding: 40px;
+    gap: 20px; /* Espacio entre texto e imagen */
 }
 
-.historia img {
-    width: 500px;
-    height: 500px;
-    margin-left: 30px;
-    align-self: center;
-    box-shadow: #743419
+.historia {
+    flex: 1; /* Ocupa el 50% del espacio */
+    padding: 20px;
+    text-align: center;
+    color: #555
+}
+
+.quienes {
+    flex: 1; /* Ocupa el 50% del espacio */
+    padding: 20px;
+    text-align: center;
+    color: #555
+}
+
+.quienes p , .historia p {
+    font-size: 1.2em; 
+    color: #555; 
+    line-height: 1.6;
+    text-align: center; 
+    padding: 0px;
+    margin: 0px;
+    flex: 2;
+}
+
+.image {
+    flex: 1; /* Ocupa el otro 50% del espacio */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    max-width: 100%; /* Asegura que la imagen sea responsiva */
+    height: auto;
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
 }
 
 .tithistoria {
@@ -369,6 +398,20 @@ header {
     font-size: 2rem;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .hist {
+        flex-direction: column; /* Cambia a formato vertical */
+        text-align: center;
+    }
+
+    .historia p , .image {
+        flex: none; /* Desactiva el tamaño proporcional */
+        width: 100%;
+    }
+
+}
+
 
 
 .media {
