@@ -12,40 +12,133 @@
 header {
     background-color:#c4742c;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
 }
 
-header title {
+
+.logo {
+    display: flex; /* Permite alinear imagen y texto horizontalmente */
+    align-items: center;
+    padding: 20px;
+}
+
+.logo-img {
+    width: 50px;/* Ajusta el tamaño de la imagen */
+    height: 50px;
+    margin-right: 10px; /* Espacio entre imagen y texto */
+}
+
+.logo-text {
+    font-size: 1.8rem;
+    font-weight: bold;
     color: white;
-    font-size: 1.5rem;
 }
 
 /* Cambio de estilos de la lista no ordenada */
-nav ul {
+.barra {
     list-style: none;
     display: flex;
     gap: 32px;
-    background-color: #f0f0f0;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 1rem 2rem;
+    align-content: center;
 }
 
+.barra ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    justify-content: space-around;
+    align-items: center;
+}
 
-nav ul li a {
-    color: rgba(94, 44, 8, 0.938);
+.barra a {
+    color: white; 
+    text-decoration: none; 
     font-weight: bolder;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
+    position: relative; 
+    transition: all 0.3s ease;
     border-radius: 4px;
-    transition: all 0.5s ease;
+    padding: 10px;
 }
 
-nav ul li a:hover {
+.barra a:hover {
     background-color: #d3b792;
+}
+
+.barra a::after {
+    content: ''; 
+    position: absolute;
+    left: 0;
+    bottom: -4px; 
+    width: 100%;
+    height: 2px; 
+    background-color: #d3b792; 
+    transform: scaleX(0); 
+    transform-origin: bottom right; 
+    transition: transform 0.2s ease;
+}
+
+.barra a:hover::after {
+    transform: scaleX(1); 
+    transform-origin: bottom left; 
+}
+
+
+.barra-com {
+    display: none;
+}
+
+.barra-button {
+    background-color: #c4742c; /* Color del botón */
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.barra-button:hover {
+    background-color: #d3b792; /* Cambio de color al pasar el mouse */
+}
+
+.barra-content {
+    display: none;
+    position: absolute;
+    background-color:white; /* Fondo de las opciones */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px #d3b792;
+    z-index: 1;
+}
+
+.barra-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 1rem;
+}
+
+.barra-content a:hover {
+    background-color: #d3b792; /* Efecto de hover sobre las opciones */
+}
+
+.barra-com:hover .barra-content {
+    display: block; /* Muestra el menú al pasar el mouse por encima */
+}
+
+@media screen and (max-width: 600px) {
+    .barra {
+        display: none;
+    }
+
+    .barra-com {
+        position: relative;
+        display: inline-block;
+    }
 }
 
 
@@ -474,6 +567,7 @@ nav ul li a:hover {
     height: 100%; /* Mantiene la proporción en imágenes responsivas */
     object-fit: cover;
     border-radius: 10px;
+    border: 3px solid #d3b792;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, filter 0.3s ease;
 }
